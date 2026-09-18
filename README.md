@@ -1,6 +1,8 @@
 ## Project Overview
 This project is a responsive corporate website designed for OMSOFTSOLUTION, a technology and software solutions company. The website presents the brand professionally through a modern landing page layout, clear service messaging, and high-impact visuals. The goal of the project was to create an engaging, business-oriented user experience that highlights the company’s products, mission, process, industries served, and contact opportunities.
 
+## Live - https://iaashishk.github.io/ASSESSMENT_TASK-OM_SOFT_SOLUTIONS/ 
+
 ## Objectives
 - Build a modern and responsive business website
 - Present company information clearly and professionally
