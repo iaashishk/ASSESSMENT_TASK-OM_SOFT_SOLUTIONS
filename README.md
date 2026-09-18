@@ -1,16 +1,41 @@
-# React + Vite
+#Assessment Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Project Overview
+This project is a responsive corporate website designed for OMSOFTSOLUTION, a technology and software solutions company. The website presents the brand professionally through a modern landing page layout, clear service messaging, and high-impact visuals. The goal of the project was to create an engaging, business-oriented user experience that highlights the company’s products, mission, process, industries served, and contact opportunities.
 
-Currently, two official plugins are available:
+## Objectives
+- Build a modern and responsive business website
+- Present company information clearly and professionally
+- Showcase key services, products, and value propositions
+- Provide an interactive and engaging user experience
+- Demonstrate front-end development skills using React and Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Key Features
+- Modern hero banner with strong branding
+- Sticky navigation bar with responsive mobile menu
+- About us and company introduction section
+- Mission and vision tabbed content
+- Product showcase cards with read-more interaction
+- Process timeline and business workflow section
+- Why Choose Us highlights and feature blocks
+- FAQ accordion for common customer queries
+- Industries served section
+- Contact/consultation call-to-action section
+- Client and partner showcase
+- Smooth scrolling, hover effects, and animated UI components
 
-## React Compiler
+## Technologies Used
+- React
+- Vite
+- JavaScript
+- CSS
+- Responsive Web Design
+- Interactive UI enhancement techniques
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
+The project is organized into reusable React components for different sections of the landing page, making the UI modular, maintainable, and scalable. Styling is separated into component-based CSS files, allowing for easier customization and design consistency.
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Run the Project Locally
+```bash
+npm install
+npm run dev
