@@ -1,0 +1,91 @@
+.process {
+    background: #f2f3f7;
+    position: relative;
+}
+.flow-item .number {
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    align-items: end;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.flow-item .number span {
+    font-size: 100px;
+    font-weight: 700;
+    
+    color: transparent;
+    position: relative;
+    line-height: 110px;
+    
+    color: #e4f1fe;
+    -webkit-text-stroke: 1.5px var(--nrj-primary-hover);
+    paint-order: stroke fill;
+    transition: .4s;
+}
+.flow-item .number label {
+    transform: rotate(-90deg);
+    position: relative;
+    top: -30px;
+    left: calc(var(--fs14) - 4px);
+    font-size: calc(var(--fs16) - 1px);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: var(--black);
+}
+.process-text h3{
+    font-size: var(--fs20);
+    font-weight:600;
+    line-height: normal;
+    margin-bottom: var(--fs10);
+}
+.process-text p {
+    display: -webkit-box;
+    overflow: hidden;
+    font-weight: 400;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    color: var(--desp-pera);
+}
+.flow-item:hover .number span {
+    -webkit-text-stroke: 1px var(--nrj-primary);
+    text-shadow: 1px  1px 0 var(--nrj-primary),
+    -1px  1px 0 var(--nrj-primary),
+    1px -1px 0 var(--nrj-primary),
+    -1px -1px 0 var(--nrj-primary),
+    0px  1px 0 var(--nrj-primary),
+    0px -1px 0 var(--nrj-primary),
+    1px  0px 0 var(--nrj-primary),
+    -1px  0px 0 var(--nrj-primary);
+    color: transparent;
+}
+.flow-item:hover .process-text h4, .flow-item:hover .number label{
+    color: var(--nrj-primary);
+}
+.flow-item:hover .number{
+    border-color: var(--nrj-primary);
+}
+
+.process-text label{
+	padding:7px 18px; 
+	border-radius:var(--fs24);
+	background:rgba(196, 56, 62, 0.1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap:var(--fs10);
+	width:fit-content;
+	margin-top: var(--fs16);
+	color: var(--secondary);
+	font-weight:500;
+}
+.process:before {
+    left: 0;
+    top: 0;
+    background-image: url("/ASSESSMENT_TASK-OM_SOFT_SOLUTION/assets/images/corner1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    width: 16%;
+    height: 50%;
+}

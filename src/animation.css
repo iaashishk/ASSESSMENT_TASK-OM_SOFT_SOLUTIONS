@@ -1,0 +1,151 @@
+
+.BlogBannerDevnexus-content {
+    overflow: hidden;
+}
+
+.BlogBannerDevnexus-title,
+.BlogBannerDevnexus-subtitle,
+.BlogBannerDevnexus-gallery-item {
+    will-change: transform, opacity;
+}
+
+.animate-fade-up {
+    opacity: 0;
+    transform: translateY(35px);
+
+    animation:
+        BlogBannerDevnexusFadeUp
+        0.8s
+        cubic-bezier(.22, 1, .36, 1)
+        forwards;
+}
+
+.animate-left {
+    opacity: 0;
+    transform: translateX(-60px);
+
+    animation:
+        BlogBannerDevnexusFromLeft
+        0.9s
+        cubic-bezier(.22, 1, .36, 1)
+        forwards;
+}
+
+.animate-right {
+    opacity: 0;
+    transform: translateX(60px);
+
+    animation:
+        BlogBannerDevnexusFromRight
+        0.9s
+        cubic-bezier(.22, 1, .36, 1)
+        forwards;
+}
+
+.animate-zoom {
+    opacity: 0;
+    transform: scale(.82);
+
+    animation:
+        BlogBannerDevnexusZoom
+        1s
+        cubic-bezier(.22, 1, .36, 1)
+        forwards;
+}
+
+.animate-delay-1 {
+    animation-delay: .15s;
+}
+
+.animate-delay-2 {
+    animation-delay: .30s;
+}
+
+@keyframes BlogBannerDevnexusFadeUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(35px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes BlogBannerDevnexusFromLeft {
+
+    from {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes BlogBannerDevnexusFromRight {
+
+    from {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes BlogBannerDevnexusZoom {
+
+    from {
+        opacity: 0;
+        transform: scale(.82);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+}
+
+.BlogBannerDevnexus-img-wrapper {
+    overflow: hidden;
+}
+
+.BlogBannerDevnexus-img-wrapper img {
+    transition:
+        transform .6s cubic-bezier(.22, 1, .36, 1);
+}
+
+.BlogBannerDevnexus-img-wrapper:hover img {
+    transform: scale(1.06);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .animate-fade-up,
+    .animate-left,
+    .animate-right,
+    .animate-zoom {
+
+        animation: none;
+
+        opacity: 1;
+
+        transform: none;
+    }
+
+    .BlogBannerDevnexus-img-wrapper img {
+        transition: none;
+    }
+
+}

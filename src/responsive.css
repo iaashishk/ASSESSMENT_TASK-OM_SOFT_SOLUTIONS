@@ -1,0 +1,286 @@
+@media (max-width: 1399px) {
+    .BlogBannerDevnexus-img-wrapper {
+    height: auto !important;
+}
+    .BlogBannerDevnexus-img-wrapper img {
+    object-fit: scale-down;
+}
+    .secHeadrNrjbdf-title {
+        font-size: 30px;
+    }
+    .nrj_Header-container {
+    max-width: 95%;
+    padding: 0 0px;
+}
+.nrj_Header-nav-link {
+    padding: 8px 14px;
+}
+.nrj_Header-mega-link-item {
+    padding: 8px 12px;
+}
+.nrj_Header-mega-products-inner {
+    display: grid;
+    gap: 10px;
+}
+.nrj_Header-ind-box {
+    padding: 10px;
+    gap: 8px;
+}
+.nrj_Header-challenges {
+    gap: 25px;
+}
+.nrj_Header-prod-item {
+    padding: 8px;
+}
+.nrj_Header-image-overlay {
+    padding: 20px;
+}
+h3#nrj_Header-prod-caption {
+    font-size: 25px !important;
+}
+.baner_soderhaNrj-nav {
+    bottom: 40px;
+}
+.baner_soderhaNrj-btn {
+    font-size: 15px;
+    padding: 12px 26px;
+}
+.baner_soderhaNrj-nav-btn {
+    width: 50px;
+    height: 50px;
+}
+.BlogBannerDevnexus-subtitle {
+    font-size: 18px;
+    max-width: 100%;
+}
+.BlogBannerDevnexus-gallery {
+    gap: 10px;
+        padding: 0 0px 10px;
+}
+.NRJ-tabMission-pane {
+    gap: 30px;
+}
+.NRJ-tabMission-content-wrap {
+    padding: 40px 30px 50px 75px;
+}
+.NRJ-tabMission-heading {
+    margin-bottom: 10px;
+}
+.NRJ-tabMission-heading {
+    font-size: 1.7rem;
+}
+.NRJ-tabMission-btn {
+    font-size: 1.4rem;
+}
+.NRJ_prdicuts_section__left h2 {
+    font-size: 40px;
+}
+.NRJ_card_body h3 {
+    font-size: 1.3rem;
+}
+.NRJ_card_body {
+    padding: 10px 0px 10px 0px;
+}
+.NRJ_btn_read_more {
+    padding: 8px 26px;
+}
+.whYCHosee_NRJ_card {
+    padding: 24px 20px 30px;
+}
+.faq_nrj_main_title {
+    font-size: 40px;
+}
+.faq_nrj_section {
+    background-position: 100% 40%, center;
+    background-size: auto 60%, 100% 100%;
+}
+.faq_nrj_col_title {
+    font-size: 18px;
+}
+.talk_expert_main_title {
+    font-size: 40px;
+}
+.clientLOjk_content h2 {
+    font-size: 40px;
+}
+.clientLOjk_content p {
+    margin: 10px 0 0;
+}
+.clientLOjk_container {
+    grid-template-columns: 0.85fr 1.4fr;
+    gap: 20px;
+}
+.clientLOjk_logo_box img {
+    max-height: 80px !important;
+}
+.whYCHosee_NRJ_label_text {
+    font-size: 18px;
+}
+.whYCHosee_NRJ_label {
+    margin-bottom: 20px;
+}
+.Fotter_nrj-talk-title {
+    font-size: clamp(3.6rem, 7vw, 7rem);
+    font-weight: 500;
+}
+.Fotter_nrj-talk-banner {
+    padding-bottom: 40px;
+}
+.Fotter_nrj {
+    padding-top: 70px;
+}
+.Fotter_nrj-contact-card {
+    gap: 10px;
+    padding: 25px 20px 20px;
+}
+.Fotter_nrj-contact-card {
+    flex-direction: column;
+}
+.Fotter_nrj-contact-grid {
+    gap: 15px;
+}
+.Fotter_nrj-contact-link {
+    font-size: 1rem;
+}
+.Fotter_nrj-social-row {
+    display: none;
+}
+.Fotter_nrj-follow-title {
+    display: none;
+}
+.Fotter_nrj-main-grid {
+    padding: 50px 0 40px 0;
+}
+}
+
+@media (max-width: 991px) {
+    .NRJ-tabMission-stat-caption {
+    font-size: 2em;
+    color: var(--nrj-primary);
+    font-weight: 400;
+}
+    .Fotter_nrj-about-text {
+    max-width: 100%;
+}
+    .clientLOjk_container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+        max-width: 100%;
+}
+    .talk_expert_form {
+    padding-left: 2em;
+}
+    .secHeadrNrjbdf-right {
+    flex: 0 0 calc(55% - 0px);
+    max-width: calc(100% - 0px);
+    border-left: 2px solid #fff;
+    padding-left: 20px;
+}
+    .secHeadrNrjbdf-left {
+    flex: 0 0 calc(45% - 20px);
+    max-width: calc(100% - 0px);
+}
+    .secHeadrNrjbdf-row {
+    flex-direction: column;
+        gap: 20px;
+}
+    .baner_soderhaNrj-video {
+    height: 46vh;
+}
+.ptb {
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+.NRJ-tabMission-content-wrap {
+    padding: 40px 40px 50px 40px;
+}
+}
+
+@media (max-width: 767px) {
+    .faq_nrj_col_title {
+    white-space: normal;
+}
+    .Fotter_nrj-contact-main {
+    font-size: 1.1rem;
+}
+    .whyCAbout p {
+    font-size: 20px !important;
+}
+    .dfghjklwertyuicvbnm_component_name {
+    font-size: 16px;
+}
+.NRJ-tabMission-content-wrap {
+    padding: 40px 30px 50px 30px;
+}
+}
+
+@media (max-width: 575px) {
+    .whYCHosee_NRJ_label_text {
+    font-size: 16px;
+}
+    .clientLOjk_content h2 {
+    font-size: 2rem;
+}
+    .talk_expert_main_title {
+    font-size: 1.8rem;
+}
+    .secHeadrNrjbdf-title {
+    font-size: 1.8rem;
+}
+    .faq_nrj_main_title {
+    font-size: 1.8rem;
+}
+    .chitkara-hex-title {
+    font-size: 13px !important;
+}
+    .chitkara-hex-item {
+    padding: 18px;
+}
+    .faq_nrj_btn_outline {
+    font-size: 16px;
+    font-weight: 400;
+}
+    .faq_nrj_btn_primary {
+    font-size: 16px;
+    font-weight: 400;
+}
+    .whyCAbout p {
+    font-size: 18px !important;
+    margin: 0;
+    font-weight: 400;
+}
+    .whYCHosee_NRJ_card_title br {
+    display: none;
+}
+    .NRJ_panel_img_wrap {
+    height: auto;
+}
+    .NRJ-tabMission-btn.active {
+    font-weight: 400;
+    padding: 10px 14px 10px 26px;
+}
+    .NRJ-tabMission-nav {
+    gap: 6px;
+}
+    .BlogBannerDevnexus-content {
+    margin-bottom: 30px;
+}
+    .NRJ_prdicuts_section__left h2 {
+    font-size: 1.8rem;
+}
+    .NRJ-tabMission-stat-caption {
+    font-size: 1.6em;
+    padding: 0;
+    margin: 0;
+}
+    .BlogBannerDevnexus-gallery {
+    margin-top: 0;
+}
+    .banner_sec, .baner_soderhaNrj-wrapper, .baner_soderhaNrj-video-wrap {
+    min-height: 40vh;
+}
+    .baner_soderhaNrj-video {
+    height: 40vh;
+}
+
+}
