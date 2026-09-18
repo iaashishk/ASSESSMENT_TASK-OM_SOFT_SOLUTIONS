@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/ASSESSMENT_TASK-OM_SOFT_SOLUTION/',
+  base: '/ASSESSMENT_TASK-OM_SOFT_SOLUTIONS/',
   plugins: [react()],
 })
